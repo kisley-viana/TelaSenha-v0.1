@@ -1,0 +1,47 @@
+/* Folha de estilo da tela de chamada */
+
+body
+{
+    background-color: steelblue;
+}
+
+#divSenha
+{
+    background-color: whitesmoke;
+    border: solid;
+    border-color: goldenrod;
+    border-right-color: black;
+    border-radius: 3%;
+    margin-top: 10%;
+    width: auto;
+    height: 200px;
+}
+
+#divSenha p
+{
+    font-size: 50px;
+}
+
+#lblSenha
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#divGuiche 
+{
+    background-color: whitesmoke;
+    border: solid;
+    border-color: goldenrod;
+    border-left-color: black;
+    border-radius: 3%;
+    margin-top: 10%;
+    margin-left: 1%;
+    width: 10px;
+    height: 200px;
+}
+#guiche
+{
+    font-size: 30px;
+    font-weight: bold;
+}
