@@ -14,18 +14,59 @@
     <!-- Conteúdo da Página -->
 
     <div class="container">
+    <!-- Senha e Guichê -->
         <div class="row">
             <div class="col-sm" id="divSenha">
-                <span id="lblSenha">SENHA:</span>
-                <p>63<p>
+                <span>SENHA:</span>
+                <p>00<p>
             </div>
             <div class="col-sm" id="divGuiche">
-                <span id="guiche">GUICHÊ:</span>
+                <span >GUICHÊ:</span>
+                <p>00</p>
+            </div>
+            
+        </div>
+        <!-- Senhas já chamadas -->
+        <div class="row">
+            <h4 style="margin-top: 2%; font-size: 30px; font-weight: bold">SENHAS JÁ CHAMADAS:</h4>
+            <!-- Quadrado 01 -->
+            <div class="col-sm divAnteriores">
+                <senha>SENHA:</senha>
+                <guiche>GUICHÊ:</guiche>
+                <br>
+                <textosenha>00</textosenha>
+                <textoguiche>00</textoguiche>
+            </div>
+            &nbsp
+            <!-- Quadrado 02 -->
+            <div class="col-sm divAnteriores">
+                <senha>SENHA:</senha>
+                <guiche>GUICHÊ:</guiche>
+                <br>
+                <textosenha>00</textosenha>
+                <textoguiche>00</textoguiche>
+            </div>
+            &nbsp
+            <!-- Quadrado 03 -->
+            <div class="col-sm divAnteriores">
+                <senha>SENHA:</senha>
+                <guiche>GUICHÊ:</guiche>
+                <br>
+                <textosenha>00</textosenha>
+                <textoguiche>00</textoguiche>
+            </div>
+            &nbsp
+            <!-- Quadrado 04 -->
+            <div class="col-sm divAnteriores">
+                <senha>SENHA:</senha>
+                <guiche>GUICHÊ:</guiche>
+                <br>
+                <textosenha>00</textosenha>
+                <textoguiche>00</textoguiche>
             </div>
             
         </div>
     </div>
-
 
 
     <!-- Pacotes JS Bootstrap -->

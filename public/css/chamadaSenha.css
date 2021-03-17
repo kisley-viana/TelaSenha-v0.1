@@ -12,21 +12,22 @@ body
     border-color: goldenrod;
     border-right-color: black;
     border-radius: 3%;
-    margin-top: 10%;
+    margin-top: 5%;
     width: auto;
-    height: 200px;
+    height: auto;
+}
+#divSenha span
+{
+    font-size: 50px;
+    font-weight: bold;
 }
 
 #divSenha p
 {
-    font-size: 50px;
+    font-size: 200px;
+    text-align: center;
 }
 
-#lblSenha
-{
-    font-size: 30px;
-    font-weight: bold;
-}
 
 #divGuiche 
 {
@@ -35,13 +36,54 @@ body
     border-color: goldenrod;
     border-left-color: black;
     border-radius: 3%;
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 1%;
-    width: 10px;
-    height: 200px;
+    width: auto;
+    height: auto;
 }
-#guiche
+#divGuiche span
 {
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bold;
+}
+#divGuiche p
+{
+    font-size: 200px;
+    text-align: center;
+}
+
+.divAnteriores
+{
+    background-color: white;
+    border: solid;
+    border-color:red;
+    border-radius: 10%;
+}
+.divAnteriores senha
+{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10%;
+}
+.divAnteriores guiche
+{
+    font-size: 20px;
+    font-weight: bold;
+    float: right;
+    margin-right: 10%;
+}
+.divAnteriores textosenha
+{
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 10%;
+
+}
+.divAnteriores textoguiche
+{
+    font-size: 50px;
+    font-weight: bold;
+    float: right;
+    margin-right: 10%;
+    text-align: center;
 }
