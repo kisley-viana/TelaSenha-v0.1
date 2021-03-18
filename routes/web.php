@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/chamada', function(){
     return view('paginas.chamadaSenha');
 });
+
+Route::get('/usuarioguiche', function(){
+    return view('paginas.usuarioGuiche');
+});

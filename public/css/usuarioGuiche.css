@@ -1,0 +1,64 @@
+body
+{
+    background-color:rgb(211, 47, 47);
+}
+
+.pagina
+{
+    background-color: white;
+    border: solid;
+    border-color: steelblue;
+    border-bottom-right-radius: 3%;
+    border-bottom-left-radius: 3%;
+    height: auto;
+}
+
+.chamada
+{
+    background-color: white;
+   
+    width: 200px;
+    height: auto;
+}
+.chamada input
+{
+    font-weight: bold;
+    font-size: 100px;
+    width: 300px;
+    border: solid;
+    border-color: goldenrod;
+    text-align: center;
+
+}
+
+.guiche
+{
+    text-align: center;
+    font-size: 100px;
+    width: 200px;
+    height: 200px;
+    border: solid;
+    border-color: goldenrod;
+}
+
+.formNumeros
+{ 
+    background-color: white;
+    border: solid;
+    border-color: green;
+    border-radius: 3%;
+    float: left;
+    width: 300px;
+    margin: 30px;
+    padding: 10px;
+}
+.formNumeros input
+{
+    width: 100px;
+}
+.formNumeros button
+{
+    align-content: center;
+    float: right;
+}
+
