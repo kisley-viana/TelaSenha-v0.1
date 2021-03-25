@@ -21,6 +21,6 @@ Route::get('/chamada', function(){
     return view('paginas.chamadaSenha');
 });
 
-Route::get('/usuarioguiche', function(){
+Route::get('/guiche', function(){
     return view('paginas.usuarioGuiche');
 });

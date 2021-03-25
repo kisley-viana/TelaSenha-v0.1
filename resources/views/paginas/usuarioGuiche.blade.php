@@ -45,7 +45,8 @@
             
         </div>
     </div>
-    <div id="impressao">
+    <div id="impressao" style="margin: auto;">
+        
     </div>
 
     
@@ -56,7 +57,7 @@
     
     <!-- Imprimir Números -->
     <script>
-        function escondeDv()
+        function escondeDiv()
         {
             var div = document.getElementById('impressao').style.display = 'none';
         }
@@ -67,13 +68,18 @@
             de = Number(de.value);
             var ate = document.getElementById('ate');
             ate = Number(ate.value);
-            
-            for(var i = de; i<=ate; i++)
+            var i = Number(de);
+            var valores = [ate.length];
+            //console.log('valor de'+valores);
+            while(i<=ate)
             {
-                document.getElementById('impressao').innerHTML = "<span>".concat(i).concat("</span>");
+                valores[i]='<span style="font-size:70px; border: solid; padding: 1%">'+i+'</span>'; 
+                //console.log(i);
+                document.getElementById('impressao').innerHTML = valores;
+                i++;
             }
             var div = document.getElementById('impressao').innerHTML,
-            impressao = window.open('about:blak');
+            impressao = window.open('about:blank');
             impressao.document.write(div);
             impressao.window.print();
             impressao.close();
